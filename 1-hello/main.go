@@ -1,8 +1,16 @@
 package main
 
+import (
+	"fmt"
+	"math/rand"
+)
+
 func main() {
 	println("Hello World!")
 	print("Hi folks, lets learn Go")
+	fmt.Println("Hello Go minds, welcome to go using fmt pacakge")
+	println("Randon number:", rand.Intn(100))
+	//os.Exit(1)
 }
 
 // main.main

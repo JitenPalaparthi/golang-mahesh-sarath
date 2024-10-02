@@ -2,7 +2,7 @@
 
 ## keywords 
 
-package , func , import
+package , func , import, var
 
 ## builtin functions
 
@@ -44,3 +44,16 @@ GOOS/GOARCH
 ```
  GOOS=linux GOARCH=s390x go build -ldflags="-s -w" -o hello-release-ibm main.go
  ```
+
+```
+lipo -create -output build/hello_universal build/hello_amd64 build/hello_arm64
+```
+
+1. GOROOT   --> Where go is installed
+2. GOPATH   --> 
+3. GOBIN    --> 
+
+
+7899652756
+
+9886816141
